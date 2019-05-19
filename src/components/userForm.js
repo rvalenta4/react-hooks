@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const UserForm = () => {
 
-  const [user, setUser] = useState({ name: '', email: '', phone: ''});
+  const [user, setUser] = useState({ name: '', email: '', phone: '' });
 
   const handleChange = (e) => {
     setUser({
